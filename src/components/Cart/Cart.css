@@ -1,0 +1,17 @@
+.cart{
+    position: sticky;
+    top: 0;
+    padding: 25px 10px 25px 15px;
+}
+.cart button{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.cart button:hover{
+    background-color: orangered;
+}

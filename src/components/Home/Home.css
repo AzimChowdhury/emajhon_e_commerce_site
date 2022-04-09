@@ -1,0 +1,29 @@
+.mainDiv{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.mainDiv img{
+    border: 0.1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 5px 5px orange;
+}
+.headText small{
+    color: orange;
+    font-weight: 500;
+}
+.headText h1{
+    font-size: 2.5em;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 35px;
+}
+.headText button{
+    font-size: 1.1em;
+    background-color: orange;
+    padding:10px 20px;
+    border: none;
+    border-radius: 3px;
+}
