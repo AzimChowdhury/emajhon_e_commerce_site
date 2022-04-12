@@ -15,7 +15,6 @@ const Cart = (props) => {
         shipping = shipping + item.shipping;
         tax = total * 5 / 100;
         grandTotal = total + shipping + tax;
-        console.log(item.quantity)
     }
     return (
         <div className='cart'>

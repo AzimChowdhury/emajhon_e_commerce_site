@@ -28,8 +28,8 @@ const Orders = () => {
             </div>
             <div className="order-summery">
                 <Cart cart={cart}>
-                    <Link to='/inventory'>
-                        <button>Proceed Checkout</button>
+                    <Link to='/shipping'>
+                        <button>Proceed shipment</button>
                     </Link>
                 </Cart>
             </div>
