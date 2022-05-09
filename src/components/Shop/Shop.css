@@ -1,13 +1,36 @@
-.shop{
+.shop {
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
-.products{
+
+.products {
     margin-left: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
-.order-summery{
+
+.order-summery {
     background-color: rgba(255, 166, 0, 0.438);
+    margin-top: 0px;
+}
+
+.pagination {
+    margin: 50px 200px;
+}
+
+.pagination button {
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.pagination .selected {
+    background-color: orangered;
+}
+
+.dropdown {
+    padding: 10px 20px;
+    background-color: #1C2B35;
+    color: white;
+    border-radius: 5px;
 }

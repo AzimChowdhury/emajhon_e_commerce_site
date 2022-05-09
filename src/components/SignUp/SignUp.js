@@ -41,7 +41,7 @@ function SignUp() {
             <p>Email</p>
             <input onBlur={handleEmailBlur} type="email" placeholder='Email' />
             <p>Password</p>
-            <input onBlur={handlePasswordBlur} type="password" placeholder='password' />
+            <input onBlur={handlePasswordBlur} type="password" placeholder='password - at least 6 character' />
             <p>Confirm Password</p>
             <input onBlur={handleConfirmPasswordBlur} type="password" placeholder='confirm password' />
             <br />
